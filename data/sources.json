@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "qaror",
+      "title": "Vazirlar Mahkamasi qarori loyihasi",
+      "description": "Biznesni ro'yxatga olish tadbirini o'tkazish to'g'risidagi asosiy qaror loyihasi.",
+      "file": "qaror_loyihasi.pdf"
+    },
+    {
+      "id": "ilova1",
+      "title": "1-ilova — Aholi soni",
+      "description": "Hudud kesimida aholi soni bo'yicha ma'lumotlar ilovasi.",
+      "file": "ilova1_aholi_soni.pdf"
+    },
+    {
+      "id": "ilova2",
+      "title": "2-ilova — Nizom",
+      "description": "Ro'yxatga olishni o'tkazish tartibini belgilovchi Nizom.",
+      "file": "ilova2_nizom.pdf"
+    },
+    {
+      "id": "ilova3",
+      "title": "3-ilova — Ro'yxatga olish dasturi",
+      "description": "Ro'yxatga olish jarayonida qo'llaniladigan dastur va respondentlar ro'yxati.",
+      "file": "ilova3_dastur.pdf"
+    }
+  ]
+}

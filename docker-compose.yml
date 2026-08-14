@@ -1,0 +1,18 @@
+services:
+  bot:
+    build: .
+    container_name: toshstat_quiz_bot
+    restart: unless-stopped
+    environment:
+      BOT_TOKEN: ${BOT_TOKEN}
+      WEBSITE_URL: ${WEBSITE_URL:-https://toshstat.uz}
+      DB_PATH: ${DB_PATH:-database/bot.db}
+      SHOW_LEADERBOARD: ${SHOW_LEADERBOARD:-true}
+      LEADERBOARD_SHOW_NAMES: ${LEADERBOARD_SHOW_NAMES:-false}
+    volumes:
+      - bot_database:/app/database
+      - bot_files:/app/data/files
+
+volumes:
+  bot_database:
+  bot_files:

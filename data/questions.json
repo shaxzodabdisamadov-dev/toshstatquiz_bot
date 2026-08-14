@@ -1,0 +1,1270 @@
+{
+  "tests": [
+    {
+      "id": "test1",
+      "title": "1-test: Asosiy qaror",
+      "description": "Biznesni ro'yxatga olish tadbiri to'g'risidagi asosiy qaror bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t1_q1",
+          "question": "Biznesni ro'yxatga olish tadbiri qaysi sanalarda o'tkaziladi?",
+          "options": [
+            "2026 yil 1 sentyabr - 30 oktyabr",
+            "2026 yil 15 sentyabr - 15 oktyabr",
+            "2026 yil 1 oktyabr - 15 noyabr",
+            "2026 yil 15 oktyabr - 30 noyabr"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q2",
+          "question": "Respondentlarni qo'llab-quvvatlash uchun tashkil etiladigan qisqa raqamli koll-markazning raqami nechi?",
+          "options": [
+            "1050",
+            "1852",
+            "1851",
+            "1800"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q3",
+          "question": "Ustav fondida (ustav kapitalida) davlat ulushi qancha foiz va undan ortiq bo'lgan xo'jalik jamiyatlari o'z tizimidagi barcha korxonalarning to'liq ro'yxatdan o'tishini tashkil etadi?",
+          "options": [
+            "30 foiz",
+            "25 foiz",
+            "51 foiz",
+            "50 foiz"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q4",
+          "question": "Iqtisodiyot va moliya vazirligi ro'yxatga olish bilan bog'liq xarajatlarni qaysi yillar uchun Davlat byudjeti parametrlarida nazarda tutilgan mablag'lar hisobidan moliyalashtiradi?",
+          "options": [
+            "2025-2026 yillar",
+            "2027-2028 yillar",
+            "2026-2027 yillar",
+            "2026-2028 yillar"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q5",
+          "question": "Jahon banki ishtirokidagi loyiha doirasida hududiy statistika organlariga nechta elektromobil sotib olishga ruxsat berilgan?",
+          "options": [
+            "Beshtadan",
+            "Ikkitadan",
+            "Uchtadan",
+            "Bittadan"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q6",
+          "question": "Ushbu qarorning bajarilishini nazorat qilish kimlar zimmasiga yuklatilgan?",
+          "options": [
+            "Bosh vazir A. Aripov va Ichki ishlar vaziri",
+            "Bosh vazirning o'rinbosari - iqtisodiyot va moliya vaziri J.A. Qo'chqorov va Milliy statistika qo'mitasi raisi B.S. Hamrayev",
+            "Prezident devoni rahbari va Bosh prokuror",
+            "Moliya vaziri va Markaziy bank raisi"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q7",
+          "question": "Respublika shtabi a'zolarini rag'batlantirish uchun ajratiladigan mablag'lar har oy mehnatga haq to'lashning eng kam miqdorining necha baravarigacha bo'lishi mumkin?",
+          "options": [
+            "25 baravar",
+            "15 baravar",
+            "10 baravar",
+            "20 baravar"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q8",
+          "question": "Respublika shtabining ishchi organi etib qaysi boshqarma belgilangan?",
+          "options": [
+            "Milliy statistika qo'mitasining Ro'yxatga olish jarayonlarini tashkil etish va o'tkazish boshqarmasi",
+            "Davlat xizmatlari agentligining Raqamlashtirish boshqarmasi",
+            "Iqtisodiyot va moliya vazirligining Strategik rejalashtirish boshqarmasi",
+            "Milliy statistika qo'mitasining Axborot texnologiyalari boshqarmasi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q9",
+          "question": "Ushbu qaror loyihasi nima to'g'risida?",
+          "options": [
+            "O'zbekiston Respublikasida qishloq xo'jaligini ro'yxatga olish to'g'risida",
+            "O'zbekiston Respublikasida biznesni ro'yxatga olishni o'tkazish chora-tadbirlari to'g'risida",
+            "O'zbekiston Respublikasida soliq tizimini isloh qilish to'g'risida",
+            "O'zbekiston Respublikasida aholini ro'yxatga olishni o'tkazish chora-tadbirlari to'g'risida"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q10",
+          "question": "Biznesni ro'yxatga olish tadbiri qaysi holatga (sanaga) nisbatan o'tkaziladi?",
+          "options": [
+            "2026 yil 1 noyabr holatiga",
+            "2026 yil 15 yanvar holatiga",
+            "2026 yil 1 oktyabr holatiga",
+            "2026 yil 1 sentyabr holatiga"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q11",
+          "question": "Mahallalar hududida ro'yxatga oluvchilar sifatida kim jalb etiladi?",
+          "options": [
+            "Mahalla raislari",
+            "Hokim yordamchilari",
+            "Statistika xodimlari",
+            "Soliq inspektorlari"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q12",
+          "question": "Hokim yordamchilari ro'yxatga olish tadbirini qanday qurilmalardan foydalangan holda o'tkazadilar?",
+          "options": [
+            "Noutbuk kompyuterlari",
+            "Planshet qurilmalari",
+            "Statsionar kompyuterlar",
+            "Smartfon qurilmalari"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q13",
+          "question": "O'zini o'zi band qilgan jismoniy shaxslarni ro'yxatga olish qaysi idora tomonidan tashkil etiladi?",
+          "options": [
+            "Soliq qo'mitasi",
+            "Adliya vazirligi",
+            "Milliy statistika qo'mitasi",
+            "Investitsiyalar, sanoat va savdo vazirligi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q14",
+          "question": "O'zbekistonda doimiy muassasa tashkil etishga olib keluvchi faoliyatni amalga oshirayotgan chet el yuridik shaxslarining internet tarmog'i orqali ro'yxatdan o'tishini qaysi idoralar tashkil etadi?",
+          "options": [
+            "Tashqi ishlar vazirligi va Adliya vazirligi",
+            "Iqtisodiyot va moliya vazirligi va Markaziy bank",
+            "Investitsiyalar, sanoat va savdo vazirligi va Soliq qo'mitasi",
+            "Milliy statistika qo'mitasi va Ichki ishlar vazirligi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q15",
+          "question": "O'zbekistonda akkreditatsiya qilingan chet davlatlar doimiy vakolatxonalari va xalqaro tashkilotlarning ro'yxatdan o'tishini qaysi vazirlik tashkil etadi?",
+          "options": [
+            "Investitsiyalar, sanoat va savdo vazirligi",
+            "Ichki ishlar vazirligi",
+            "Tashqi ishlar vazirligi",
+            "Adliya vazirligi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q16",
+          "question": "Rag'batlantirish to'lovlari qaysi loyiha doirasida ajratilgan mablag'lar hisobidan moliyalashtiriladi?",
+          "options": [
+            "Osiyo taraqqiyot banki loyihasi",
+            "BMT Taraqqiyot dasturi loyihasi",
+            "Xalqaro valyuta fondi loyihasi",
+            "Jahon banki ishtirokidagi \"O'zbekistonda statistika tizimi salohiyatini mustahkamlash\" loyihasi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q17",
+          "question": "Rag'batlantirish to'lovlari kim tomonidan moliyalashtiriladi?",
+          "options": [
+            "Moliya vazirligi zaxira jamg'armasi",
+            "Iqtisodiyot va moliya vazirligi",
+            "Markaziy bank",
+            "Milliy statistika qo'mitasi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t1_q18",
+          "question": "Ichki ishlar vazirligi xavfsizlikni ta'minlashda qaysi shaharlar va viloyat markazlarida Milliy gvardiyaga ko'maklashadi?",
+          "options": [
+            "Barcha tuman markazlari",
+            "Samarqand va Buxoro shaharlari",
+            "Toshkent, Nukus shaharlari va viloyatlar markazlari",
+            "Faqat Toshkent shahri"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        }
+      ]
+    },
+    {
+      "id": "test2",
+      "title": "2-test: Ro'yxatga olish tartibi (Nizom)",
+      "description": "Ro'yxatga olishning 2-ilova (Nizom) asosidagi tayyorgarlik va o'tkazish tartib-qoidalari bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t2_q1",
+          "question": "Ro'yxatga olish boshlanishining aniq payti (sana va soat) qanday belgilangan?",
+          "options": [
+            "2026 yil 1 sentyabr soat 00:00",
+            "2026 yil 30 sentyabr soat 24:00",
+            "2026 yil 1 oktyabr soat 00:00",
+            "2026 yil 15 oktyabr soat 09:00"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q2",
+          "question": "Ro'yxatga olishni o'tkazish davomiyligi necha ish kunini tashkil etadi?",
+          "options": [
+            "30 ish kuni",
+            "45 ish kuni",
+            "40 ish kuni",
+            "60 ish kuni"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q3",
+          "question": "Nizomga ko'ra, ro'yxatga olishga doir ma'lumotlar nechta usulda to'planishi mumkin?",
+          "options": [
+            "4 ta usulda",
+            "5 ta usulda",
+            "3 ta usulda",
+            "2 ta usulda"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q4",
+          "question": "Yirik korxonalar, kichik korxona va mikrofirmalar, nodavlat notijorat tashkilotlar ro'yxati qaysi manba asosida shakllantiriladi?",
+          "options": [
+            "Korxonalar va tashkilotlarning yagona davlat registri ma'lumotlari",
+            "Adliya vazirligi va Soliq qo'mitasi ma'lumotlari",
+            "Soliq qo'mitasi ma'lumotlari",
+            "Istiqbolli loyihalar milliy agentligi ma'lumotlari"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q5",
+          "question": "Yuridik shaxs tashkil etmagan holda tadbirkorlik faoliyati bilan shug'ullanayotgan jismoniy shaxslar ro'yxati qaysi idoralar ma'lumotlari asosida shakllantiriladi?",
+          "options": [
+            "Kadastr agentligi",
+            "Adliya vazirligi va Soliq qo'mitasi",
+            "Istiqbolli loyihalar milliy agentligi va Raqamli texnologiyalar vazirligi",
+            "Korxonalar va tashkilotlarning yagona davlat registri"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q6",
+          "question": "O'zini o'zi band qilgan shaxslar ro'yxati qaysi idora ma'lumotlari asosida shakllantiriladi?",
+          "options": [
+            "Soliq qo'mitasi",
+            "Kadastr agentligi",
+            "Adliya vazirligi",
+            "Ichki ishlar vazirligi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q7",
+          "question": "Elektron tijorat platformalari (marketpleyslar) va agregatorlar ro'yxati qaysi idoralar ma'lumotlari asosida shakllantiriladi?",
+          "options": [
+            "Istiqbolli loyihalar milliy agentligi va Raqamli texnologiyalar vazirligi",
+            "Kadastr agentligi va Bojxona qo'mitasi",
+            "Tashqi ishlar vazirligi",
+            "Adliya vazirligi va Soliq qo'mitasi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q8",
+          "question": "Mahalla hududida faoliyat yurituvchi ro'yxatga oluvchilar (hokim yordamchilari) ro'yxati qaysi sanaga qadar tasdiqlanishi belgilangan?",
+          "options": [
+            "2026 yil 1 oktyabrga qadar",
+            "2026 yil 10 sentyabrga qadar",
+            "2026 yil 15 sentyabrga qadar",
+            "2026 yil 25 sentyabrga qadar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q9",
+          "question": "Milliy statistika qo'mitasi markaziy apparati xodimlari orasidan har bir hududga nechtadan supervayzer tayinlanadi?",
+          "options": [
+            "Uchtadan",
+            "Beshtadan",
+            "Ikkitadan",
+            "Bittadan"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q10",
+          "question": "Supervayzerlar qaysi davr davomida o'zlariga biriktirilgan hududlarda amalga oshiriladigan ishlar uchun mas'ul hisoblanadi?",
+          "options": [
+            "2026 yil 1 oktyabrdan 30 noyabrga qadar",
+            "2026 yil 15 sentyabrdan 15 dekabrga qadar",
+            "2026 yil 1 sentyabrdan 31 dekabrga qadar",
+            "2026 yil 1 avgustdan 31 oktyabrga qadar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q11",
+          "question": "Hududlarga biriktirilgan supervayzerlar mehnatga haq to'lashning eng kam miqdorining necha baravarigacha miqdorda rag'batlantiriladi?",
+          "options": [
+            "20 baravarigacha",
+            "10 baravarigacha",
+            "15 baravarigacha",
+            "5 baravarigacha"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q12",
+          "question": "Ro'yxatga olish jarayonida respondentlarni qo'llab-quvvatlash uchun statistika organlarida jami nechta mutaxassis jalb etilgan holda koll-markazlar faoliyati tashkil etiladi?",
+          "options": [
+            "150 nafar",
+            "70 nafar",
+            "50 nafar",
+            "100 nafar"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q13",
+          "question": "2026 yil 1 sentyabrdan 31 dekabrgacha hududiy statistika boshqarmalariga fuqarolik-huquqiy tusdagi shartnoma asosida jami nechta mutaxassis jalb etiladi?",
+          "options": [
+            "100 nafar",
+            "70 nafar",
+            "40 nafar",
+            "50 nafar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q14",
+          "question": "Hududiy statistika boshqarmalariga fuqarolik-huquqiy shartnoma asosida jalb etiladigan mutaxassislarning bir oylik ish haqi miqdori qancha belgilangan?",
+          "options": [
+            "7 baravari",
+            "10 baravari",
+            "2 baravari",
+            "Mehnatga haq to'lashning eng kam miqdorining 5 baravari"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q15",
+          "question": "Hokim yordamchilari har bir respondent bo'yicha qabul qilingan savolnoma shakli uchun mehnatga haq to'lashning eng kam miqdorining necha foizi miqdorida rag'batlantiriladi?",
+          "options": [
+            "0,70 foizi",
+            "2 foizi",
+            "1,1 foizi",
+            "1,5 foizi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q16",
+          "question": "Ro'yxatdan o'tmagan holda faoliyat yuritayotgani aniqlangan har bir respondent bo'yicha hokim yordamchisi qabul qilingan savolnoma shakli uchun necha foiz miqdorida rag'batlantiriladi?",
+          "options": [
+            "0,70 foizi",
+            "2 foizi",
+            "0,5 foizi",
+            "1,1 foizi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q17",
+          "question": "Ro'yxatga oluvchilar tomonidan so'rov o'tkazish va biriktirilgan hududlarni aylanib chiqish qaysi soatlar oralig'ida amalga oshiriladi?",
+          "options": [
+            "Soat 8:00 dan 17:00 gacha",
+            "Soat 9:00 dan 20:00 gacha",
+            "Soat 9:00 dan 18:00 gacha",
+            "Soat 10:00 dan 19:00 gacha"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q18",
+          "question": "Ro'yxatga olishning to'liq davri tugagandan so'ng o'n kun davomida har bir mahalla va bozor hududidagi respondentlarning necha foizigacha tanlanma nazorat kuzatuvi o'tkaziladi?",
+          "options": [
+            "3 foizigacha",
+            "10 foizigacha",
+            "15 foizigacha",
+            "5 foizigacha"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q19",
+          "question": "Ro'yxatga olish ma'lumotlarini qayta ishlash uchun vaqtincha jalb qilinadigan mutaxassislarning bir oylik ish haqi miqdori qancha etib belgilangan?",
+          "options": [
+            "5 baravari",
+            "Mehnatga haq to'lashning eng kam miqdorining 7 baravari",
+            "2 baravari",
+            "10 baravari"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q20",
+          "question": "O'zbekiston Respublikasi, Qoraqalpog'iston Respublikasi, viloyatlar, Toshkent shahri kesimida ro'yxatga olishning dastlabki ma'lumotlari qaysi sanaga qadar tayyorlanadi?",
+          "options": [
+            "2027 yil 1 sentyabrgacha",
+            "2027 yil 1 avgustgacha",
+            "2026 yil 31 dekabrgacha",
+            "2027 yil 1 iyungacha"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 2-ilova — Nizom."
+        },
+        {
+          "id": "t2_q21",
+          "question": "O'zbekiston Respublikasi va hududlar bo'yicha ro'yxatga olishning yakuniy ma'lumotlari qaysi sanaga qadar e'lon qilinadi?",
+          "options": [
+            "2027 yil 1 sentyabrgacha",
+            "2027 yil 1 dekabrgacha",
+            "2027 yil 1 iyungacha",
+            "2028 yil 1 yanvargacha"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 2-ilova — Nizom."
+        }
+      ]
+    },
+    {
+      "id": "test3",
+      "title": "3-test: Chora-tadbirlar rejasi",
+      "description": "Ro'yxatga olishni ta'minlash bo'yicha 5-ilova (chora-tadbirlar rejasi) va muddatlar bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t3_q1",
+          "question": "Ro'yxatga olish jarayonlariga vaqtincha jalb etiladigan xodimlarning lavozim majburiyatlarini ishlab chiqish qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 10 sentyabr",
+            "2026 yil 25 sentyabr",
+            "2026 yil 15 sentyabr",
+            "2026 yil 2 oktyabr"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q2",
+          "question": "Respondentlarga doir ma'lumotlarga ishlov berish tartibi to'g'risidagi nizomni ishlab chiqish muddati?",
+          "options": [
+            "2026 yil 1 oktyabr",
+            "2026 yil 15 sentyabr",
+            "2026 yil 2 oktyabr",
+            "2026 yil 15 oktyabr"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q3",
+          "question": "Tayyorlangan ro'yxatlarning tuman, shahar hokimliklari, mahallalar va statistika organlariga yetkazilishi qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 10 oktyabr",
+            "2026 yil 5 oktyabr",
+            "2026 yil 15 sentyabr",
+            "2026 yil 2 oktyabr"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q4",
+          "question": "Ro'yxatga oluvchilar sifatida jalb etilgan hokim yordamchilari va boshqa shaxslarni bir martalik rag'batlantirishni tashkil etish qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 10 dekabr",
+            "2026 yil 30 noyabr",
+            "2026 yil 15 dekabr",
+            "2027 yil 1 yanvar"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q5",
+          "question": "Murojaatlar bilan ishlash va respondentlarni qo'llab-quvvatlash uchun \"Koll-markaz\" tashkil etish chora-tadbirlar rejasida qaysi sanaga qadar belgilangan?",
+          "options": [
+            "2026 yil 1 oktyabrga qadar",
+            "2026 yil 25 sentyabrga qadar",
+            "2026 yil 1 noyabrga qadar",
+            "2026 yil 15 oktyabrga qadar"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q6",
+          "question": "Ro'yxatga olish axborot tizimining maxsus mobil ilovasini hokim yordamchilari va boshqa xodimlarning planshet qurilmalariga o'rnatishni ta'minlash qaysi sanaga qadar belgilangan?",
+          "options": [
+            "2026 yil 10 oktyabrga qadar",
+            "2026 yil 15 oktyabrga qadar",
+            "2026 yil 1 oktyabrga qadar",
+            "2026 yil 25 sentyabrga qadar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q7",
+          "question": "Hokim yordamchilarining planshet qurilmalariga GPS kuzatuv tizimini o'rnatish qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 15 oktyabr",
+            "2026 yil 1 oktyabr",
+            "2026 yil 25 sentyabr",
+            "2026 yil 10 oktyabr"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q8",
+          "question": "O'rnatilgan maxsus mobil ilovani to'liq ishlash holatiga keltirish qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 1 oktyabr",
+            "2026 yil 15 oktyabr",
+            "2026 yil 10 oktyabr",
+            "2026 yil 5 oktyabr"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q9",
+          "question": "Ro'yxatga olish axborot tizimini axborot va kiberxavfsizlik talablariga muvofiqligi yuzasidan beg'araz ekspertizadan o'tkazishni asosan kim amalga oshiradi?",
+          "options": [
+            "Raqamli texnologiyalar vazirligi",
+            "Ichki ishlar vazirligi",
+            "\"Kiberxavfsizlik markazi\" DUK",
+            "Milliy gvardiya"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q10",
+          "question": "Statistika organlari xodimlari uchun o'qitish dasturini ishlab chiqish hamda tasdiqlash qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 1 sentyabr",
+            "2026 yil 11 sentyabr",
+            "2026 yil 15 sentyabr",
+            "2026 yil 7 sentyabr"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q11",
+          "question": "Milliy statistika qo'mitasi markaziy apparati va hududiy statistika organlari xodimlarini o'qitish qaysi sanaga belgilangan?",
+          "options": [
+            "2026 yil 11 sentyabr",
+            "2026 yil 7 sentyabr",
+            "2026 yil 20 sentyabr",
+            "2026 yil 15 sentyabr"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q12",
+          "question": "Ro'yxatga olishning dastlabki ma'lumotlarini umumlashtirish va shakllantirish qaysi sanaga qadar belgilangan?",
+          "options": [
+            "2027 yil 1 avgustgacha",
+            "2026 yil 31 dekabrgacha",
+            "2027 yil 1 sentyabrgacha",
+            "2027 yil 1 iyungacha"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q13",
+          "question": "Maxsus axborot tizimidan foydalangan holda ro'yxatga olishning natijalarini qayta ishlash va tahlil qilish qaysi sanaga belgilangan?",
+          "options": [
+            "2027 yil 1 avgust",
+            "2027 yil 1 oktyabr",
+            "2027 yil 1 iyun",
+            "2027 yil 1 sentyabr"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q14",
+          "question": "Yakuniy ma'lumotlarni e'lon qilish va rasmiy nashr ettirish qaysi sanaga belgilangan?",
+          "options": [
+            "2027 yil 1 oktyabr",
+            "2028 yil 1 iyul",
+            "2027 yil 1 avgust",
+            "2027 yil 1 sentyabr"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q15",
+          "question": "Ro'yxatga olishning dastlabki va yakuniy ma'lumotlarini hamda boshqa hujjatlarini arxivda saqlashga tayyorlash qaysi sanaga belgilangan?",
+          "options": [
+            "2027 yil 1 sentyabr",
+            "2028 yil 1 yanvar",
+            "2028 yil 1 iyul",
+            "2027 yil 1 dekabr"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 5-ilova — Chora-tadbirlar rejasi."
+        },
+        {
+          "id": "t3_q16",
+          "question": "Milliy statistika qo'mitasi 2026 yil qaysi sanadan boshlab amaliy o'quv-seminarlar tashkil etishni boshlaydi?",
+          "options": [
+            "25 sentyabr",
+            "15 sentyabr",
+            "1 oktyabr",
+            "15 oktyabr"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        },
+        {
+          "id": "t3_q17",
+          "question": "Ro'yxatga olish axborot tizimini takomillashtirish va sinovdan o'tkazish qaysi sanaga qadar amalga oshirilishi belgilangan?",
+          "options": [
+            "25 sentyabr",
+            "15 sentyabr",
+            "1 oktyabr",
+            "15 oktyabr"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        }
+      ]
+    },
+    {
+      "id": "test4",
+      "title": "4-test: Dastur va ma'muriy ma'lumotlar",
+      "description": "3-ilova (ro'yxatga olish dasturi/so'rovnoma) va 8-ilova (ma'muriy ma'lumotlar manbalari) bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t4_q1",
+          "question": "Ro'yxatga olish dasturi nechta asosiy bo'limdan (savollar guruhidan) iborat?",
+          "options": [
+            "5 ta bo'limdan",
+            "8 ta bo'limdan",
+            "4 ta bo'limdan",
+            "6 ta bo'limdan"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q2",
+          "question": "\"Savdo nomi\", \"yuridik maqomi\", \"faoliyat yuritayotgan manzillari\" kabi savollar dasturning qaysi bo'limiga tegishli?",
+          "options": [
+            "Xarajat va aylanmalarga oid savollar",
+            "Asosiy identifikatsiya, manzil va aloqa ma'lumotlariga oid savollar",
+            "Faoliyatga oid savollar",
+            "Bandlik masalalariga oid savollar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q3",
+          "question": "\"Qachon faoliyatini boshlagan\", \"asosiy faoliyat turi\" kabi savollar qaysi bo'limga tegishli?",
+          "options": [
+            "Boshqa ma'lumotlarga oid savollar",
+            "Bandlik masalalariga oid savollar",
+            "Asosiy identifikatsiya savollari",
+            "Respondentlarning faoliyatiga oid savollar"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q4",
+          "question": "\"2025 yilda barcha yollangan va yollanmagan ishlovchilarning o'rtacha soni\" qaysi bo'limga tegishli savol?",
+          "options": [
+            "Xarajat va aylanmalarga oid savollar",
+            "Yillik iqtisodiy kuzatuv bo'yicha savollar",
+            "Bandlik masalalariga oid savollar",
+            "Faoliyatga oid savollar"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q5",
+          "question": "\"2025 yildagi jami xarajatlari qiymati\" va \"jami aylanma qiymati\" qaysi bo'limga tegishli?",
+          "options": [
+            "Asosiy identifikatsiya savollari",
+            "Xarajat va aylanmalarga tegishli savollar",
+            "Boshqa ma'lumotlarga tegishli savollar",
+            "Bandlik masalalariga oid savollar"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q6",
+          "question": "\"Asosiy mulkdor/rahbarning jinsi, yosh oralig'i\" qaysi bo'limga tegishli savol?",
+          "options": [
+            "Respondentlarga oid boshqa ma'lumotlarga tegishli savollar",
+            "Bandlik masalalariga oid savollar",
+            "Faoliyatga oid savollar",
+            "Yillik iqtisodiy kuzatuv savollari"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q7",
+          "question": "Yillik iqtisodiy kuzatuv bo'yicha savollar bo'limida asosan qaysi yil uchun ma'lumotlar so'raladi?",
+          "options": [
+            "2027 yil",
+            "2025 yil",
+            "2024 yil",
+            "2026 yil"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q8",
+          "question": "Ro'yxatga olish dasturiga o'zgartirish va qo'shimchalar kiritish vakolati kimga berilgan?",
+          "options": [
+            "Vazirlar Mahkamasiga har safar alohida qaror orqali",
+            "Respublika komissiyasiga",
+            "Milliy statistika qo'mitasiga yakka tartibda",
+            "Iqtisodiyot va moliya vazirligiga"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q9",
+          "question": "Internet tarmog'i va planshet qurilmalari yordamida ro'yxatga olishda savollar soni va mazmunini saqlagan holda nima qilinishi mumkin?",
+          "options": [
+            "Tahririy o'zgartirish va qayta guruhlarga ajratilishi mumkin",
+            "Savollar butunlay o'zgartirilishi mumkin",
+            "Dastur tom boshidan qayta yozilishi mumkin",
+            "Savollar soni ikki baravar ko'paytirilishi mumkin"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q10",
+          "question": "\"Ishlab chiqarish xomashyosi va materiallari zaxiralari\" haqidagi savol dasturning qaysi bo'limida mavjud?",
+          "options": [
+            "Xarajat va aylanmalarga tegishli savollar",
+            "Faoliyatga oid savollar",
+            "Yillik iqtisodiy kuzatuv bo'yicha savollar",
+            "Bandlik masalalariga oid savollar"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 3-ilova — Ro'yxatga olish dasturi (so'rovnoma)."
+        },
+        {
+          "id": "t4_q11",
+          "question": "Yuridik shaxs tashkil etmagan holda tadbirkorlik faoliyati bilan shug'ullanayotgan jismoniy shaxslar to'g'risidagi ma'lumotlarni qaysi idora taqdim etadi?",
+          "options": [
+            "Adliya vazirligi",
+            "Bojxona qo'mitasi",
+            "Kadastr agentligi",
+            "Soliq qo'mitasi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q12",
+          "question": "Ro'yxatdan o'tgan yuridik va jismoniy shaxslar, shu jumladan o'zini o'zi band qilganlar to'g'risidagi to'liq ma'lumotlar bazasini qaysi idora taqdim etadi?",
+          "options": [
+            "Kadastr agentligi",
+            "Soliq qo'mitasi",
+            "Adliya vazirligi",
+            "Iqtisodiyot va moliya vazirligi"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q13",
+          "question": "Mahallalar chegaralari va yer uchastkalari konturlari ko'rsatilgan yangilangan elektron xaritalarni qaysi idora taqdim etadi?",
+          "options": [
+            "\"O'zsuvta'minot\" AJ",
+            "Kadastr agentligi",
+            "Soliq qo'mitasi",
+            "Adliya vazirligi"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q14",
+          "question": "Elektr energiyasi va gaz iste'molchilari bo'yicha ma'lumotlar bazasini qaysi tashkilotlar taqdim etadi?",
+          "options": [
+            "Soliq qo'mitasi",
+            "Bojxona qo'mitasi",
+            "\"O'zsuvta'minot\" AJ",
+            "\"Hududiy elektr tarmoqlari\" AJ va \"Hududgazta'minot\" AJ"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q15",
+          "question": "\"Yashil energiya\" axborot tizimiga kiritilgan qayta tiklanuvchi energiya manbalari bo'yicha ma'lumotlar bazasini qaysi idora taqdim etadi?",
+          "options": [
+            "Raqamli texnologiyalar vazirligi",
+            "Soliq qo'mitasi",
+            "Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo'mitasi",
+            "Kadastr agentligi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q16",
+          "question": "\"Paynet Xolis\" tizimiga ulangan jismoniy shaxslar to'g'risidagi ma'lumotlar bazasini qaysi idora taqdim etadi?",
+          "options": [
+            "Adliya vazirligi",
+            "Raqamli texnologiyalar vazirligi",
+            "Istiqbolli loyihalar milliy agentligi",
+            "Soliq qo'mitasi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q17",
+          "question": "Ichimlik suvi iste'molchilari to'g'risidagi ma'lumotlar bazasini qaysi tashkilot taqdim etadi?",
+          "options": [
+            "\"O'zsuvta'minot\" AJ",
+            "\"Hududgazta'minot\" AJ",
+            "Bojxona qo'mitasi",
+            "Kadastr agentligi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q18",
+          "question": "Elektron tijorat platformalari (marketpleyslar) va agregatorlar to'g'risidagi ma'lumotlarni qaysi idoralar taqdim etadi?",
+          "options": [
+            "Adliya vazirligi va Kadastr agentligi",
+            "Ichki ishlar vazirligi",
+            "Bojxona qo'mitasi va \"O'zsuvta'minot\" AJ",
+            "Istiqbolli loyihalar milliy agentligi, Raqamli texnologiyalar vazirligi va Soliq qo'mitasi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        },
+        {
+          "id": "t4_q19",
+          "question": "Qarorning 8-ilovasi nimani o'z ichiga oladi?",
+          "options": [
+            "Respublika komissiyasi tarkibi",
+            "Milliy statistika qo'mitasiga taqdim etiladigan ma'muriy ma'lumotlar ro'yxati va muddatlari",
+            "Savolnoma shakllari",
+            "Ro'yxatga olinadigan iqtisodiy birliklar toifalari"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 8-ilova — Ma'muriy ma'lumotlar ro'yxati."
+        }
+      ]
+    },
+    {
+      "id": "test5",
+      "title": "5-test: Aholi soni va respondentlar toifalari",
+      "description": "1-ilova (aholi soni) va 7-ilova (respondentlar toifalari va ro'yxatga olish usullari) bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t5_q1",
+          "question": "Aholi va qishloq xo'jaligini ro'yxatga olish natijalariga asosan O'zbekiston Respublikasi aholisi soni qaysi sanaga holatiga ko'rsatilgan?",
+          "options": [
+            "2026 yil 1 iyul",
+            "2025 yil 1 yanvar",
+            "2026 yil 1 oktyabr",
+            "2026 yil 15 yanvar"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q2",
+          "question": "O'zbekiston Respublikasining umumiy aholisi soni nechaga teng?",
+          "options": [
+            "38 200 000 kishi",
+            "37 500 000 kishi",
+            "39 047 321 kishi",
+            "40 120 456 kishi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q3",
+          "question": "1-ilovada ko'rsatilgan hududlar orasida aholisi soni bo'yicha ENG KO'P bo'lgan viloyat qaysi?",
+          "options": [
+            "Qashqadaryo viloyati",
+            "Farg'ona viloyati",
+            "Andijon viloyati",
+            "Samarqand viloyati"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q4",
+          "question": "1-ilovada ko'rsatilgan hududlar orasida aholisi soni bo'yicha ENG KAM bo'lgan hudud qaysi?",
+          "options": [
+            "Navoiy viloyati",
+            "Sirdaryo viloyati",
+            "Xorazm viloyati",
+            "Jizzax viloyati"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q5",
+          "question": "Toshkent shahrining aholisi soni qancha?",
+          "options": [
+            "4 238 911 kishi",
+            "3 763 093 kishi",
+            "2 984 084 kishi",
+            "3 224 838 kishi"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q6",
+          "question": "Qoraqalpog'iston Respublikasining aholisi soni qancha?",
+          "options": [
+            "2 149 932 kishi",
+            "2 104 874 kishi",
+            "1 524 055 kishi",
+            "2 140 746 kishi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q7",
+          "question": "Farg'ona viloyatining aholisi soni qancha?",
+          "options": [
+            "3 692 323 kishi",
+            "4 238 911 kishi",
+            "3 531 777 kishi",
+            "4 404 575 kishi"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q8",
+          "question": "1-ilovada jami nechta ma'muriy hududiy birlik (Qoraqalpog'iston Respublikasi, viloyatlar va Toshkent shahri) ko'rsatilgan?",
+          "options": [
+            "14 ta",
+            "13 ta",
+            "12 ta",
+            "15 ta"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 1-ilova — Aholi soni."
+        },
+        {
+          "id": "t5_q9",
+          "question": "Yuridik shaxslar (yirik korxonalar, kichik korxona va mikrofirmalar, nodavlat notijorat tashkilotlar) qaysi usulda ro'yxatga olinadi?",
+          "options": [
+            "Pochta orqali",
+            "Planshet qurilmalari yordamida yuzma-yuz so'rov",
+            "Faqat soliq mobil ilovasi orqali",
+            "Faqat internet orqali"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q10",
+          "question": "Yuridik shaxslarni kim ro'yxatga oladi?",
+          "options": [
+            "Soliq organlari xodimlari",
+            "Hokim yordamchilari",
+            "Statistika organlari xodimlari",
+            "Adliya vazirligi xodimlari"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q11",
+          "question": "O'zini o'zi band qilgan jismoniy shaxslarni kim ro'yxatga oladi?",
+          "options": [
+            "Soliq organlari xodimlari",
+            "Statistika organlari xodimlari",
+            "Kadastr agentligi xodimlari",
+            "Hokim yordamchilari"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q12",
+          "question": "Ro'yxatdan o'tmasdan faoliyat ko'rsatayotgan tadbirkorlik subyektlarini kimlar ro'yxatga oladi?",
+          "options": [
+            "Faqat hokim yordamchilari",
+            "Hokim yordamchilari va statistika organlari xodimlari",
+            "Faqat soliq organlari xodimlari",
+            "Adliya vazirligi xodimlari"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q13",
+          "question": "Dehqon (oziq-ovqat) bozorlari va ular hududidagi subyektlarni kim ro'yxatga oladi?",
+          "options": [
+            "Ichki ishlar vazirligi xodimlari",
+            "Soliq organlari xodimlari",
+            "Statistika organlari xodimlari",
+            "Hokim yordamchilari"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q14",
+          "question": "7-ilovaga ko'ra, jami ro'yxatga olinadigan iqtisodiy birliklar nechta toifaga bo'lingan?",
+          "options": [
+            "6 ta toifaga",
+            "4 ta toifaga",
+            "5 ta toifaga",
+            "3 ta toifaga"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q15",
+          "question": "7-ilovada ko'rsatilgan usullar orasida o'zini o'zi band qilgan jismoniy shaxslarni ro'yxatga olish YO'LI sifatida KO'RSATILMAGAN variant qaysi?",
+          "options": [
+            "Davlat xizmatlari markazi",
+            "Yagona interaktiv davlat xizmatlari portali",
+            "Pochta orqali yozma ariza yuborish",
+            "Soliq mobil ilovasi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        },
+        {
+          "id": "t5_q16",
+          "question": "Ro'yxatga olinadigan iqtisodiy birliklarning toifalari va ularni ro'yxatga olish usullariga o'zgartirish va qo'shimchalar kiritish vakolati kimga berilgan?",
+          "options": [
+            "Milliy statistika qo'mitasiga yakka tartibda",
+            "Respublika komissiyasiga",
+            "Vazirlar Mahkamasiga har doim alohida qaror orqali",
+            "Iqtisodiyot va moliya vazirligiga"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 7-ilova — Respondentlar toifalari va usullari."
+        }
+      ]
+    },
+    {
+      "id": "test6",
+      "title": "6-test: Komissiya tarkibi",
+      "description": "6-ilova (Respublika komissiyasi tarkibi) bo'yicha savollar.",
+      "questions": [
+        {
+          "id": "t6_q1",
+          "question": "Respublika komissiyasi raisi lavozimi bo'yicha kim etib belgilangan?",
+          "options": [
+            "Z.M. Ziyoyev - Milliy statistika qo'mitasi raisi o'rinbosari",
+            "B.S. Hamrayev - Milliy statistika qo'mitasi raisi",
+            "A.A. Toshpo'latov - ichki ishlar vaziri",
+            "J.A. Qo'chqorov - Bosh vazir o'rinbosari - iqtisodiyot va moliya vaziri"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q2",
+          "question": "Respublika komissiyasi raisi o'rinbosari etib kim belgilangan?",
+          "options": [
+            "F.J. Po'latov - Soliq qo'mitasi raisi",
+            "J.A. Qo'chqorov - Bosh vazir o'rinbosari",
+            "B.S. Hamrayev - Milliy statistika qo'mitasi raisi",
+            "K.K. Quronboyev - O'zbekiston mahallalari uyushmasi raisi"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q3",
+          "question": "Respublika komissiyasi kotibi etib kim belgilangan?",
+          "options": [
+            "B.S. Hamrayev",
+            "U.M. Yusupov",
+            "J.A. Qo'chqorov",
+            "Z.M. Ziyoyev - Milliy statistika qo'mitasi raisi o'rinbosari"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q4",
+          "question": "Komissiya tarkibida Milliy gvardiya qo'mondoni sifatida kim ko'rsatilgan?",
+          "options": [
+            "B.X. Toshmatov",
+            "A.A. Toshpo'latov",
+            "I.R. Mahkamov",
+            "Sh.X. Shermatov"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q5",
+          "question": "Komissiya tarkibida \"O'zbekiston mahallalari uyushmasi raisi\" sifatida kim ko'rsatilgan?",
+          "options": [
+            "A.A. Xaitov",
+            "O.N. Mirzayev",
+            "D.A. Vahobov",
+            "K.K. Quronboyev"
+          ],
+          "correct_index": 3,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q6",
+          "question": "Soliq qo'mitasi raisi sifatida komissiya tarkibiga kim kiritilgan?",
+          "options": [
+            "S.A. Turdiyev",
+            "F.J. Po'latov",
+            "I.R. Mahkamov",
+            "B.E. Zohidov"
+          ],
+          "correct_index": 1,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q7",
+          "question": "Komissiya tarkibida \"Savdo-sanoat palatasi raisi\" sifatida kim ko'rsatilgan?",
+          "options": [
+            "D.A. Vahobov",
+            "U.M. Yusupov",
+            "K.K. Quronboyev",
+            "A.A. Xaitov"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q8",
+          "question": "\"Kiberxavfsizlik markazi\" davlat unitar korxonasi direktori sifatida komissiya tarkibiga kim kiritilgan?",
+          "options": [
+            "A.K. Ko'chimov",
+            "M.A. Safarov",
+            "O.N. Mirzayev",
+            "S.A. Turdiyev"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q9",
+          "question": "Komissiya tarkibida jami nechta a'zo ko'rsatilgan?",
+          "options": [
+            "16 nafar",
+            "20 nafar",
+            "18 nafar",
+            "15 nafar"
+          ],
+          "correct_index": 2,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q10",
+          "question": "Komissiya a'zolari boshqa ishga o'tgan taqdirda, izohga ko'ra nima qilinishi belgilangan?",
+          "options": [
+            "Ushbu lavozimlarga yangidan tayinlangan yoki tegishli funksiyalarni bajarish yuklangan shaxslar kiritiladi",
+            "Komissiya tarkibi qayta tasdiqlanmaydi",
+            "O'sha lavozim bo'sh qoldiriladi",
+            "Komissiya tarkibi Prezident tomonidan qayta belgilanadi"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: 6-ilova — Respublika komissiyasi tarkibi."
+        },
+        {
+          "id": "t6_q11",
+          "question": "Respublika shtabi qancha muddatda tashkil etilishi belgilangan?",
+          "options": [
+            "O'n kun muddatda",
+            "Ikki hafta muddatda",
+            "Ikki oy muddatda",
+            "Bir oy muddatda"
+          ],
+          "correct_index": 0,
+          "explanation": "Manba: Vazirlar Mahkamasi qarori loyihasi (asosiy qism)."
+        }
+      ]
+    }
+  ]
+}
