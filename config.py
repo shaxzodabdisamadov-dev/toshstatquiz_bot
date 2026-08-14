@@ -18,7 +18,7 @@ def _bool(value: str | None, default: bool = False) -> bool:
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 WEBSITE_URL = os.getenv("WEBSITE_URL", "https://toshstat.uz")
-DB_PATH = BASE_DIR / os.getenv("DB_PATH", "database/bot.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "")
 SHOW_LEADERBOARD = _bool(os.getenv("SHOW_LEADERBOARD"), default=True)
 LEADERBOARD_SHOW_NAMES = _bool(os.getenv("LEADERBOARD_SHOW_NAMES"), default=False)
 

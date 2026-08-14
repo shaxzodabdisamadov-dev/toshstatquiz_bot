@@ -6,13 +6,11 @@ services:
     environment:
       BOT_TOKEN: ${BOT_TOKEN}
       WEBSITE_URL: ${WEBSITE_URL:-https://toshstat.uz}
-      DB_PATH: ${DB_PATH:-database/bot.db}
+      DATABASE_URL: ${DATABASE_URL}
       SHOW_LEADERBOARD: ${SHOW_LEADERBOARD:-true}
       LEADERBOARD_SHOW_NAMES: ${LEADERBOARD_SHOW_NAMES:-false}
     volumes:
-      - bot_database:/app/database
       - bot_files:/app/data/files
 
 volumes:
-  bot_database:
   bot_files:

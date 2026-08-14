@@ -3,7 +3,7 @@
 Toshkent shahar statistika boshqarmasi uchun rasmiy Telegram bot: bilim sinovi
 (test) tizimi va rasmiy hujjatlar manbai.
 
-**Stek:** Python 3.11+, aiogram 3.x, SQLite (aiosqlite).
+**Stek:** Python 3.11+, aiogram 3.x, PostgreSQL (asyncpg).
 
 ## Loyiha tuzilishi
 
@@ -19,7 +19,7 @@ tashstat_bot/
 │   ├── tests.py              # testlar ro'yxati, savol-javob FSM, natijalar, reyting
 │   └── sources.py            # "Manbalar" bo'limi (hujjatlar ro'yxati va yuklab olish)
 ├── keyboards/                 # inline keyboard generatorlari
-├── database/db.py             # SQLite: users, results jadvallari
+├── database/db.py             # PostgreSQL (asyncpg): users, results jadvallari
 ├── states/quiz.py             # FSM holatlari (aiogram StatesGroup)
 ├── utils/
 │   ├── quiz_logic.py          # savol/variantlarni aralashtirish, hisoblash
@@ -47,7 +47,9 @@ tashstat_bot/
    pip install -r requirements.txt
    ```
 
-3. `.env.example` faylidan nusxa olib `.env` yarating va tokeningizni kiriting:
+3. Mahalliy PostgreSQL kerak bo'ladi (yoki Docker orqali: `docker run -d --name toshstat-pg -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=toshstat_bot -p 5432:5432 postgres:16`).
+
+4. `.env.example` faylidan nusxa olib `.env` yarating va sozlamalaringizni kiriting:
 
    ```bash
    copy .env.example .env
@@ -58,18 +60,19 @@ tashstat_bot/
    ```
    BOT_TOKEN=<BotFather'dan olingan token>
    WEBSITE_URL=https://toshstat.uz
-   DB_PATH=database/bot.db
+   DATABASE_URL=postgresql://postgres:postgres@localhost:5432/toshstat_bot
    SHOW_LEADERBOARD=true
    LEADERBOARD_SHOW_NAMES=false
    ```
 
-4. Botni ishga tushiring:
+5. Botni ishga tushiring:
 
    ```bash
    python bot.py
    ```
 
-   Birinchi ishga tushishda `database/bot.db` SQLite fayli avtomatik yaratiladi.
+   Birinchi ishga tushishda `users` va `results` jadvallari PostgreSQL'da
+   avtomatik yaratiladi.
 
 ## Savollar bazasi
 
@@ -142,6 +145,24 @@ tasdiqlangan versiyasini shu yerga joylang.
 Loyihada `Dockerfile` va `docker-compose.yml` tayyor — Dokploy panelida
 quyidagicha joylashtiring:
 
+### 1. PostgreSQL xizmatini yarating (agar hali yaratmagan bo'lsangiz)
+
+Dokployda **Create Project → + Database → PostgreSQL** orqali yarating.
+Yaratilgandan so'ng xizmatning **"General"** yoki **"Environment"** bo'limida
+tayyor ulanish satri ko'rsatiladi — odatda **"Internal Connection URL"** yoki
+shunga o'xshash nom bilan, masalan:
+
+```
+postgresql://postgres:<parol>@toshstatquizbot-db:5432/postgres
+```
+
+Shu tayyor satrni nusxalab oling — u pastda `DATABASE_URL` sifatida kerak
+bo'ladi. (Muhim: bot va Postgres xizmatlari bitta Dokploy loyihasi ichida
+bo'lishi va bir xil ichki tarmoqda ishlashi kerak — Dokploy buni odatda
+avtomatik ta'minlaydi.)
+
+### 2. Bot xizmatini yarating
+
 1. Dokployda yangi xizmat qo'shishda **"Application"ni EMAS, aynan "Compose"**
    turini tanlang (Create Project → **+ Compose**). "Application" tanlansa,
    Dokploy standart holatda Nixpacks bilan avtomatik build qiladi va bizning
@@ -151,29 +172,29 @@ quyidagicha joylashtiring:
 2. **Source**: shu GitHub repozitoriysini ulang
    (`shaxzodabdisamadov-dev/toshstatquiz_bot`), branch — `main`.
    Dokploy `docker-compose.yml` faylini avtomatik topadi.
-3. **Environment Variables** bo'limida quyidagilarni kiriting (`.env.example`
-   bilan bir xil nomlar, qiymatlar Dokploy panelida saqlanadi, repoga
-   yuklanmaydi):
+3. **Environment Variables** bo'limida quyidagilarni kiriting (qiymatlar
+   Dokploy panelida saqlanadi, repoga yuklanmaydi):
 
    ```
    BOT_TOKEN=<BotFather'dan olingan haqiqiy token>
    WEBSITE_URL=https://toshstat.uz
-   DB_PATH=database/bot.db
+   DATABASE_URL=<1-qadamda nusxalangan Postgres ulanish satri>
    SHOW_LEADERBOARD=true
    LEADERBOARD_SHOW_NAMES=false
    ```
 
-   `BOT_TOKEN` — majburiy, qolganlari ixtiyoriy (standart qiymatlar
-   `docker-compose.yml` ichida bor).
+   `BOT_TOKEN` va `DATABASE_URL` — majburiy, qolganlari ixtiyoriy (standart
+   qiymatlar `docker-compose.yml` ichida bor).
 4. **Deploy** tugmasini bosing. Dokploy image'ni qurib, konteynerni polling
-   rejimida (portsiz, tashqi trafik kerak emas) ishga tushiradi.
-5. SQLite baza (`/app/database`) va yuklangan fayllar (`/app/data/files`)
-   nomlangan Docker volume'larda saqlanadi (`bot_database`, `bot_files`) —
-   qayta deploy qilinganda ma'lumotlar yo'qolmaydi.
-6. `data/files/` papkasiga haqiqiy PDF/DOCX hujjatlarni qo'shish uchun ularni
-   repoga commit qilib qayta deploy qiling (eng oddiy yo'l), yoki Dokployning
-   konteyner terminali/volume boshqaruvidan foydalanib to'g'ridan-to'g'ri
-   volume ichiga joylang.
+   rejimida (portsiz, tashqi trafik kerak emas) ishga tushiradi. Birinchi
+   ishga tushishda `users` va `results` jadvallari Postgres'da avtomatik
+   yaratiladi.
+5. Yuklangan fayllar (`/app/data/files`) nomlangan Docker volume'da
+   (`bot_files`) saqlanadi — qayta deploy qilinganda yo'qolmaydi. Haqiqiy
+   PDF/DOCX hujjatlarni qo'shish uchun ularni repoga commit qilib qayta
+   deploy qiling (eng oddiy yo'l), yoki Dokployning konteyner
+   terminali/volume boshqaruvidan foydalanib to'g'ridan-to'g'ri volume
+   ichiga joylang.
 
 Kodni yangilagach, GitHub'ga push qiling — Dokployda **auto-deploy** yoqilgan
 bo'lsa, u avtomatik qayta qurib ishga tushiradi; aks holda panelda **Redeploy**
@@ -193,9 +214,16 @@ e'tiborga olinmagan). Ikki yechim bor:
    **Build Type**ni `Nixpacks`dan `Dockerfile`ga o'zgartiring (repo ildizidagi
    `Dockerfile`ni ko'rsating). Repoda shuningdek `Procfile` (`web: python
    bot.py`) ham bor — Nixpacks bilan qolsangiz ham start buyrug'ini shundan
-   topadi. Biroq bu holda baza/fayllar uchun persistence'ni Dokployning
-   "Advanced → Volumes" bo'limida qo'lda sozlashingiz kerak bo'ladi
-   (`/app/database` va `/app/data/files`).
+   topadi. Biroq bu holda yuklangan fayllar (`/app/data/files`) uchun
+   persistence'ni Dokployning "Advanced → Volumes" bo'limida qo'lda
+   sozlashingiz kerak bo'ladi (ma'lumotlar bazasi PostgreSQL'da, alohida
+   xizmat sifatida saqlanadi — bunga volume kerak emas).
+
+**"connection refused" / bot ishga tushmayapti** — `DATABASE_URL` noto'g'ri
+yoki bot va Postgres xizmatlari bir xil tarmoqda emas. Postgres xizmatining
+ulanish satrida ko'rsatilgan host nomi (masalan `toshstatquizbot-db`) aynan
+o'sha Dokploy loyihasidagi Postgres konteyneri nomi bilan mos kelishini
+tekshiring.
 
 ## Eslatma
 

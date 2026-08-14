@@ -7,7 +7,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from config import BOT_TOKEN
+from config import BOT_TOKEN, DATABASE_URL
 from database.db import init_db
 from handlers import sources, start, tests
 
@@ -21,6 +21,12 @@ logger = logging.getLogger(__name__)
 async def main() -> None:
     if not BOT_TOKEN:
         logger.error("BOT_TOKEN topilmadi. .env faylida BOT_TOKEN ni sozlang (.env.example ga qarang).")
+        sys.exit(1)
+    if not DATABASE_URL:
+        logger.error(
+            "DATABASE_URL topilmadi. .env faylida PostgreSQL ulanish satrini sozlang "
+            "(.env.example ga qarang)."
+        )
         sys.exit(1)
 
     await init_db()
