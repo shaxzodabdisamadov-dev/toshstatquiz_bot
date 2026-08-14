@@ -142,8 +142,12 @@ tasdiqlangan versiyasini shu yerga joylang.
 Loyihada `Dockerfile` va `docker-compose.yml` tayyor — Dokploy panelida
 quyidagicha joylashtiring:
 
-1. Dokployda **Create Project → Application → Docker Compose** turini tanlang
-   (yoki alohida "Compose" xizmati sifatida qo'shing).
+1. Dokployda yangi xizmat qo'shishda **"Application"ni EMAS, aynan "Compose"**
+   turini tanlang (Create Project → **+ Compose**). "Application" tanlansa,
+   Dokploy standart holatda Nixpacks bilan avtomatik build qiladi va bizning
+   `Dockerfile`/`docker-compose.yml`ni e'tiborga olmaydi — natijada
+   **"No start command could be found"** xatosi chiqadi (pastdagi
+   "Muammolarni bartaraf etish" bo'limiga qarang).
 2. **Source**: shu GitHub repozitoriysini ulang
    (`shaxzodabdisamadov-dev/toshstatquiz_bot`), branch — `main`.
    Dokploy `docker-compose.yml` faylini avtomatik topadi.
@@ -174,6 +178,24 @@ quyidagicha joylashtiring:
 Kodni yangilagach, GitHub'ga push qiling — Dokployda **auto-deploy** yoqilgan
 bo'lsa, u avtomatik qayta qurib ishga tushiradi; aks holda panelda **Redeploy**
 bosing.
+
+### Muammolarni bartaraf etish
+
+**"Error: No start command could be found" / "Nixpacks build failed"** —
+xizmat "Application" turida yaratilgan va Dokploy uni Nixpacks bilan
+avtomatik build qilmoqchi bo'lgan (bizning `Dockerfile`/`docker-compose.yml`
+e'tiborga olinmagan). Ikki yechim bor:
+
+1. **Tavsiya etiladi:** mavjud xizmatni o'chirib, yuqoridagi 1-qadamdagidek
+   **"Compose"** turida qaytadan yarating — shundagina volume'lar (baza va
+   fayllar saqlanishi) ishlaydi.
+2. Agar "Application" turida qolishni xohlasangiz: xizmat sozlamalarida
+   **Build Type**ni `Nixpacks`dan `Dockerfile`ga o'zgartiring (repo ildizidagi
+   `Dockerfile`ni ko'rsating). Repoda shuningdek `Procfile` (`web: python
+   bot.py`) ham bor — Nixpacks bilan qolsangiz ham start buyrug'ini shundan
+   topadi. Biroq bu holda baza/fayllar uchun persistence'ni Dokployning
+   "Advanced → Volumes" bo'limida qo'lda sozlashingiz kerak bo'ladi
+   (`/app/database` va `/app/data/files`).
 
 ## Eslatma
 
